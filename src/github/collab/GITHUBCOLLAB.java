@@ -18,6 +18,12 @@ public class GITHUBCOLLAB {
     static void HELLOWORLD(){
         System.out.println("HELLO WORLD");
     }
+    
+    static void BYEWORLD(){
+        
+        System.out.println("Bye");
+        
+    }
 
     /**
      * @param args the command line arguments
@@ -25,7 +31,10 @@ public class GITHUBCOLLAB {
     public static void main(String[] args) {
         // TODO code application logic here
         HELLOWORLD();
+
         Hi();
+
+        BYEWORLD();
     }
     
 }
