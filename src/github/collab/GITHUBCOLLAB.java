@@ -11,6 +11,10 @@ package github.collab;
  */
 public class GITHUBCOLLAB {
     
+    static void Hi(){
+        System.out.println("Hi");
+    }
+    
     static void HELLOWORLD(){
         System.out.println("HELLO WORLD");
     }
@@ -27,6 +31,9 @@ public class GITHUBCOLLAB {
     public static void main(String[] args) {
         // TODO code application logic here
         HELLOWORLD();
+
+        Hi();
+
         BYEWORLD();
     }
     
